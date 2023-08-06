@@ -33,7 +33,7 @@ Go to [@botfather](https://t.me/botfather) and create a bot using the `/newbot` 
 In my case, I added the bot to a group and I want it to send updates there. So, to get the `chat_id` of that group, I go to
 `https://api.telegram.org/botPUTYOURTOKENHERE/getUpdates` and look for the group id (e.g. `12345`) by matching the group name with `title` field.
 
-```json
+```
 my_chat_member: {
     chat: {
     id: 12345,
